@@ -11,3 +11,8 @@ void setup()
   myPort = new Serial(this, "COM3", 9600);
   myPort.bufferUntil('\n');
 }
+
+void draw() {
+  background(0);
+ 
+
