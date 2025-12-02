@@ -25,3 +25,6 @@ long getDistance()
 }
 
 void loop() {
+
+  // Sweep 0 to 180 degrees
+  for (int pos = 0; pos <= 180; pos++) {
