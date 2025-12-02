@@ -15,5 +15,7 @@ void setup()
 void draw() {
   background(0);
   drawRadar();
-
+  drawSweepLine(angle);
+  drawObject(angle, distance);
+}
 
