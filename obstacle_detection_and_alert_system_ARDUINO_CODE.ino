@@ -10,3 +10,5 @@ void setup()
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
 }
+
+long getDistance() {
