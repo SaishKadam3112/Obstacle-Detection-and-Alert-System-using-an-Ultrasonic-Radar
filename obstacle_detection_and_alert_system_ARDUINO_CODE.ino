@@ -23,3 +23,5 @@ long getDistance()
   long distance = (duration * 0.034) / 2;
   return distance;
 }
+
+void loop() {
