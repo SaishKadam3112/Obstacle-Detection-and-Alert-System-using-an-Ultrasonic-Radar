@@ -65,4 +65,14 @@ void drawSweepLine(float a)
   line(width/2, height, x, y);
  }
 
-
+void drawObject(float a, float d) 
+{
+  if (d > 200) return; // Object too far (ignore)
+  
+  float px = width/2 + (d * 2) * cos(radians(a));
+  float py = height - (d * 2) * sin(radians(a));
+  
+  fill(255, 0, 0);
+  noStroke();
+  ellipse(px, py, 10, 10);
+}
