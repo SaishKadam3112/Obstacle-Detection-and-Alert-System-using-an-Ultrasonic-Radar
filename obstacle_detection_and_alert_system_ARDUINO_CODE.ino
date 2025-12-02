@@ -31,3 +31,8 @@ void loop() {
   servo.write(pos);
   delay(20);
   long distance = getDistance();
+
+   Serial.print(pos);
+   Serial.print(",");
+   Serial.println(distance);
+  }
