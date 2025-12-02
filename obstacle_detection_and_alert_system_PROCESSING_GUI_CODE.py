@@ -56,4 +56,13 @@ void drawRadar()
   }
 }
 
+void drawSweepLine(float a) 
+{
+  stroke(0, 255, 0);
+  strokeWeight(2);
+  float x = width/2 + 400 * cos(radians(a));
+  float y = height - 400 * sin(radians(a));
+  line(width/2, height, x, y);
+ }
+
 
