@@ -36,4 +36,24 @@ void serialEvent(Serial myPort)
   }
 }
 
+void drawRadar() 
+{
+  stroke(0, 255, 0);
+  noFill();
+  
+  // Radar circles
+  arc(width/2, height, 800, 800, PI, TWO_PI);
+  arc(width/2, height, 600, 600, PI, TWO_PI);
+  arc(width/2, height, 400, 400, PI, TWO_PI);
+  arc(width/2, height, 200, 200, PI, TWO_PI);
+  
+  // Angle lines
+  for (int i = 0; i <= 180; i += 30)
+ {
+    float x = width/2 + 400 * cos(radians(i));
+    float y = height - 400 * sin(radians(i));
+    line(width/2, height, x, y);
+  }
+}
+
 
