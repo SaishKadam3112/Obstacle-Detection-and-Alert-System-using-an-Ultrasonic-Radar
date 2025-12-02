@@ -11,7 +11,8 @@ void setup()
   pinMode(echoPin, INPUT);
 }
 
-long getDistance() {
+long getDistance() 
+{
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
   digitalWrite(trigPin, HIGH);
@@ -19,3 +20,6 @@ long getDistance() {
   digitalWrite(trigPin, LOW);
 
   long duration = pulseIn(echoPin, HIGH);
+  long distance = (duration * 0.034) / 2;
+  return distance;
+}
