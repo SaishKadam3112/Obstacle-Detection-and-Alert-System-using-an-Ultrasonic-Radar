@@ -30,3 +30,4 @@ void loop() {
   for (int pos = 0; pos <= 180; pos++) {
   servo.write(pos);
   delay(20);
+  long distance = getDistance();
