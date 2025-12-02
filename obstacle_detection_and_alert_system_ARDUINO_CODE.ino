@@ -2,6 +2,11 @@
 int trigPin = 9;
 int echoPin = 10;
 
-void setup() {
+void setup()
+{
   Serial.begin(9600);
   servo.attach(6);
+
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+}
