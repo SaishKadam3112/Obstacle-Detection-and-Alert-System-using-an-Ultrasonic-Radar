@@ -12,3 +12,5 @@ void setup()
 }
 
 long getDistance() {
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
