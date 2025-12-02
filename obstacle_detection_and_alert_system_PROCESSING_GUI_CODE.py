@@ -19,3 +19,6 @@ void draw() {
   drawObject(angle, distance);
 }
 
+void serialEvent(Serial myPort) {
+  String data = myPort.readStringUntil('\n');
+
