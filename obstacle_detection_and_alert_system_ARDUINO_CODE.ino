@@ -24,10 +24,12 @@ long getDistance()
   return distance;
 }
 
-void loop() {
+void loop()
+{
 
   // Sweep 0 to 180 degrees
-  for (int pos = 0; pos <= 180; pos++) {
+  for (int pos = 0; pos <= 180; pos++)
+ {
    servo.write(pos);
    delay(20);
    long distance = getDistance();
@@ -38,7 +40,14 @@ void loop() {
   }
 
   // Sweep 180 back to 0 degrees
-  for (int pos = 180; pos >= 0; pos--) {
+  for (int pos = 180; pos >= 0; pos--)
+  {
     servo.write(pos);
     delay(20);
     long distance = getDistance();
+
+    Serial.print(pos);
+    Serial.print(",");
+    Serial.println(distance);
+  }
+}
