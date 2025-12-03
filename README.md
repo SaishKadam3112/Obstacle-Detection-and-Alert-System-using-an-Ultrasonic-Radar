@@ -112,4 +112,7 @@ Watch the radar detect obstacles in real-time!
 
 <img width="1175" height="1280" alt="image" src="https://github.com/user-attachments/assets/98b3a820-0f82-43fd-832a-dbaba45b272a" />
 
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/b780a9e1-5e48-416f-9001-0a9b4ca01b21" />
+
+
 
