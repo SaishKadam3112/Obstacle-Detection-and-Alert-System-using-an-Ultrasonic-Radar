@@ -18,6 +18,22 @@ Connecting wires
 
 Processing IDE (for radar GUI)
 
+🔧 Pin Configuration :-
+
+Component      	Pin Connection
+
+Servo Motor	        D6
+
+Ultrasonic Trig    	D9
+
+Ultrasonic Echo   	D10
+
+Buzzer	            D8
+
+🖼 Circuit Diagram :-
+
+<img width="1480" height="697" alt="Project Circuit Diagram" src="https://github.com/user-attachments/assets/145d00ac-35c0-49e4-b775-d2fbbbb24009" />
+
 ⚙️ Working Principle :-
 
 The servo motor rotates from 0° to 180° and back.
@@ -58,9 +74,4 @@ Displays a moving sweep line based on servo angle.
 Draws red dots where obstacles are detected.
 Filters out objects that are too far (noise removal).
 
-🔧 Pin Configuration
-Component      	Pin Connection
-Servo Motor	        D6
-Ultrasonic Trig    	D9
-Ultrasonic Echo   	D10
-Buzzer	            D8
+
