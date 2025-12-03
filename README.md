@@ -10,7 +10,7 @@ Arduino UNO
 
 Ultrasonic Sensor (HC-SR04)
 
-Servo Motor
+Servo Motor (MG995)
 
 Buzzer
 
@@ -57,3 +57,10 @@ Shows a green semicircle radar on the screen.
 Displays a moving sweep line based on servo angle.
 Draws red dots where obstacles are detected.
 Filters out objects that are too far (noise removal).
+
+🔧 Pin Configuration
+Component      	Pin Connection
+Servo Motor	        D6
+Ultrasonic Trig    	D9
+Ultrasonic Echo   	D10
+Buzzer	            D8
