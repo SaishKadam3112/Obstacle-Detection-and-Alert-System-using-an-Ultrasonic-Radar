@@ -90,6 +90,7 @@ Buzzer alert for close objects
 
 Smooth GUI animation
 
+
 🚀 How to Run :-
 
 Upload the Arduino code to the Arduino UNO.
@@ -101,3 +102,14 @@ Select the correct COM port in the code (example: "COM3").
 Run the Processing sketch.
 
 Watch the radar detect obstacles in real-time!
+
+
+📷 Screenshots / Output :-
+
+<img width="1280" height="991" alt="image" src="https://github.com/user-attachments/assets/7942c7e5-7017-4910-b679-19c7a72b89d9" />
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/c9d06808-90c0-4aa8-8068-4b9fc3a39cd6" />
+
+<img width="1175" height="1280" alt="image" src="https://github.com/user-attachments/assets/98b3a820-0f82-43fd-832a-dbaba45b272a" />
+
+
