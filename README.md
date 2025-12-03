@@ -1,6 +1,7 @@
 🛰️ OBSTACLE DETECTION and ALERT SYSTEM using an ULTRASONIC RADAR
 
-📌 Project Overview :-
+📌 Project Overview 
+
 This project is an Obstacle Detection and Alert System that uses an ultrasonic sensor mounted on a rotating servo motor to scan the surroundings. The data is sent to a Processing GUI, which displays a live radar view. A buzzer gives an alert when an object is detected very close.
 
 🛠️ Components Used
@@ -16,3 +17,15 @@ Buzzer
 Connecting wires
 
 Processing IDE (for radar GUI)
+
+⚙️ Working Principle
+
+The servo motor rotates from 0° to 180° and back.
+
+At each angle, the ultrasonic sensor measures distance to an obstacle.
+
+If the obstacle is too close, the buzzer turns ON.
+
+Arduino sends angle,distance data to the Processing GUI.
+
+Processing displays a live radar with moving sweep line and object dots.
