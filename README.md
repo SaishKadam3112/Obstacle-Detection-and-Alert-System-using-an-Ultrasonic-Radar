@@ -1,11 +1,11 @@
-🛰️ OBSTACLE DETECTION and ALERT SYSTEM using an ULTRASONIC RADAR
+**🛰️ OBSTACLE DETECTION and ALERT SYSTEM using an ULTRASONIC RADAR**
 
-📌 Project Overview :- 
+**📌 Project Overview :-**
 
 This project is an Obstacle Detection and Alert System that uses an ultrasonic sensor mounted on a rotating servo motor to scan the surroundings. The data is sent to a Processing GUI, which displays a live radar view. A buzzer gives an alert when an object is detected very close.
 
 
-🛠️ Components Used :-
+**🛠️ Components Used :-**
 
 Arduino UNO
 
@@ -20,7 +20,7 @@ Connecting wires
 Processing IDE (for radar GUI)
 
 
-🔧 Pin Configuration :-
+**🔧 Pin Configuration :-**
 
 Component      	Pin Connection
 
@@ -33,12 +33,12 @@ Ultrasonic Echo   	D10
 Buzzer	            D8
 
 
-🖼 Circuit Diagram :-
+**🖼 Circuit Diagram :-**
 
 <img width="1480" height="697" alt="Project Circuit Diagram" src="https://github.com/user-attachments/assets/145d00ac-35c0-49e4-b775-d2fbbbb24009" />
 
 
-⚙️ Working Principle :-
+**⚙️ Working Principle :-**
 
 The servo motor rotates from 0° to 180° and back.
 
@@ -51,7 +51,7 @@ Arduino sends angle,distance data to the Processing GUI.
 Processing displays a live radar with moving sweep line and object dots.
 
 
-💻 Code Explanation :-
+**💻 Code Explanation :-**
 
 Ultrasonic Sensor :-
 Measures how far an obstacle is from the sensor.
@@ -80,7 +80,7 @@ Draws red dots where obstacles are detected.
 Filters out objects that are too far (noise removal).
 
 
-🧪 Output Features :-
+**🧪 Output Features :-**
 
 Real-time radar scanning
 
@@ -91,7 +91,7 @@ Buzzer alert for close objects
 Smooth GUI animation
 
 
-🚀 How to Run :-
+**🚀 How to Run :-**
 
 Upload the Arduino code to the Arduino UNO.
 
@@ -104,7 +104,7 @@ Run the Processing sketch.
 Watch the radar detect obstacles in real-time!
 
 
-📷 Screenshots / Output :-
+**📷 Screenshots / Output :-**
 
 <img width="1280" height="991" alt="image" src="https://github.com/user-attachments/assets/7942c7e5-7017-4910-b679-19c7a72b89d9" />
 
