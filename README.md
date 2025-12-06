@@ -53,27 +53,27 @@ Processing displays a live radar with moving sweep line and object dots.
 
 **💻 Code Explanation :-**
 
-Ultrasonic Sensor :-
+**Ultrasonic Sensor :-**
 Measures how far an obstacle is from the sensor.
 Uses the formula:
 distance = (duration * 0.034) / 2
 Sends accurate distance data to Arduino.
 
-Servo Motor :-
+**Servo Motor :-**
 Rotates between 0° → 180° → 0°.
 Helps the sensor scan the environment like a real radar.
 Angle changes are matched with distance readings.
 
-Buzzer Alert :-
+**Buzzer Alert :-**
 Turns ON when an obstacle is detected very close.
 Helps give a quick warning to the user.
 
-Serial Communication :-
+**Serial Communication :-**
 Arduino sends live data to Processing in the format:
 angle,distance
 Processing reads these values and updates the display.
 
-Processing GUI (Radar Display) :-
+**Processing GUI (Radar Display) :-**
 Shows a green semicircle radar on the screen.
 Displays a moving sweep line based on servo angle.
 Draws red dots where obstacles are detected.
